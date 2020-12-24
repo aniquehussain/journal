@@ -1,0 +1,32 @@
+<%- include("partials/header"); -%>
+
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-default">
+  <a class="navbar-brand logo" href="/">
+    Journal
+  </a>
+  <button id="toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
+      <li class="nav-item"><a class="nav-link" href=<%=userId%>>POSTS</a></li>
+      <li class="nav-item" id="about"><a class="nav-link" href="/about">ABOUT US</a></li>
+      <li class="nav-item"><a class="nav-link" href="/logout">LOGOUT</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container post-container">
+
+  <div class="cards mb-3 card">
+    <div class="row no-gutters">
+      <h3><%=title%></h3><br><br>
+      <p class="para"><%=content%></p>
+      <small class="sm">Created by:<%=creator%> on <%=date%></small>
+    </div>
+  </div>
+
+
+  <%- include("partials/footer"); -%>

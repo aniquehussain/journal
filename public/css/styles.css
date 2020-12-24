@@ -1,0 +1,281 @@
+html {
+  min-height: 100%;
+  position: relative;
+  color: #111;
+}
+body{
+  background-color: #fff;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-image: url(../iph.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+/* input, input:before, input:after {
+  -webkit-user-select: initial;
+  -khtml-user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial;
+  user-select: initial;
+ }  */
+h3,h4{
+  color: #557571;
+}
+.hello{
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #557571;
+  padding: 1% 1% 1% 1.5%;
+  display: inline-block;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.post-container{
+  margin: 5% 30% 0 30%;
+  
+}
+.flexbox-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5% 0 5% 0;
+  align-items: stretch;
+
+}
+.namelink{
+  text-decoration: none;
+  color: #fff;
+}
+.namelink:hover{
+  text-decoration: none;
+  color: #ebb1b1;
+}
+a{
+  color: #ebb1b1;
+}
+a:hover{
+  color: #111;
+}
+.flexbox-item{
+  width:35%;
+}
+.flexbox-item-1{
+background-color: #fff;
+opacity: 90%;
+}
+
+.imglogin{
+  width: 100%;
+  height: 100%;
+}
+.loginpage{
+  background-attachment: fixed;
+  background-image: url(../iph.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.headline{
+  font-family: 'Satisfy', cursive;
+  font-weight: 900;
+  font-size: 80px;
+  position: absolute;
+  color: #557571;
+  z-index: 2;
+  margin-left: 60%;
+  right: 20%;
+  left: -7%;
+  top: 17%;
+}
+
+.btn-del{
+  border-color: transparent;
+  background-color: transparent;
+  float: right;
+}
+.cards{
+  border: 0.5px solid #fff;
+  max-width: 570px;
+  padding: 5%;
+  /* background-color: #ddf3f5; */
+  background-color: #f4f4f4;
+  margin: 1% 0 1% 0;
+  border-radius: 20px;
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.butn{
+  text-decoration: none;
+  float: right;
+  margin-bottom: 2%;
+  background-color: #888888;
+  border-color: #888888;
+}
+.butn:hover{
+  background-color: #fff;
+  color: #888888;
+  border-color: #888888;
+}
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #333333;
+}
+
+
+.creator{
+  background-color: cadetblue;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 400;
+  padding: 1% 1% 1% 1.5%;
+
+}
+
+.para{
+  width: 100%;
+}
+.sm{
+  color: grey;
+  font-weight: 400;
+}
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+h1{
+  padding-bottom: 5%;
+  font-family: Arial;
+  
+}
+
+
+.formbox{
+ display: inline-block;
+ margin: 10% 0 5% 5%;
+ width: 80%;
+}
+
+.cov{
+  width: 100%;
+  position: absolute;
+}
+@media only screen and (max-width:1130px){
+
+  .loginpage{
+    background-image: url(../iph.jpg);
+    background-size: 150%;
+    background-position: center;
+    background-attachment: scroll;
+    /* background-color: cadetblue; */
+  }
+  .post-container{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 100%;
+   }
+
+
+}
+@media only screen and (max-width: 768px){
+ 
+  body{
+    background-image: url(../iph2.jpg);
+    background-size: 120%;
+    background-position: center;
+    background-attachment: scroll;
+  }
+  
+  .loginpage{
+    background-image: url(../iph2.jpg);
+    background-size: 120%;
+    background-position: center;
+    background-attachment: scroll;
+  }
+  .flexbox-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   padding: 5% 0 5% 0;
+   align-items: center;
+   align-content: center;
+   margin-top: 0%;
+   height: 50%;
+  
+  }
+  .flexbox-item{
+    width:100%;
+  }
+  .flexbox-item-1{
+  background-color: #fff;
+  opacity: 90%;
+  margin: 38% 5% 0 5%;
+  }
+    .imglogin{
+      visibility: hidden;
+      display: none;
+    }
+    .headline{
+      font-family: 'Satisfy', cursive;
+      font-weight: 900;
+      font-size: 80px;
+      text-align: center;
+      display: block;
+      margin-right: 18%;
+      margin-left: 20%;
+      z-index: 2;
+      right:0%;
+      top: 0%;
+      margin-top: 15%;
+      position:absolute;
+      bottom: 30%;
+    }
+  .post-container{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 95%;
+   }
+ 
+  .cov{
+    width: 100%;
+    position: relative;
+  }
+  
+  
+  .formbox{
+    display: block;
+    margin: 8% 5% 5% 8%;
+    width: 80%;
+   }
+   
+   
+   .cards{
+     border: 0.5px solid #fff;
+     max-width: 100%;
+     padding: 5% 8% 5% 8%;
+     background-color: #f4f4f4;
+     margin: 1% 0 1% 0;
+     border-radius: 20px;
+   }
+   
+
+}
